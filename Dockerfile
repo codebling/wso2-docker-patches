@@ -1,4 +1,6 @@
-FROM wso2/wso2is:latest
+ARG IMAGE=wso2/wso2is:5.11.0
+
+FROM $IMAGE
 
 USER root
 
